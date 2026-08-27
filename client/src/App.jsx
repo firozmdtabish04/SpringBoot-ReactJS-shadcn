@@ -1,11 +1,12 @@
 import React from 'react'
+import { CardDemo } from './CardDemo'
 
 const App = () => {
   return (
     <div>
-      <h1 className="text-4xl font-bold text-blue-500">Tailwind Works</h1>
+      <CardDemo/>
     </div>
-  );
+  )
 }
 
 export default App
